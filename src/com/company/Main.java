@@ -22,7 +22,6 @@ public class Main {
         for (int i = 0; i < 4; i++) {
 
             Random rand = new Random();
-            int j;
 
             Enemy enemy = new Enemy(rand.nextInt(19), rand.nextInt(19));
             enemies.add(enemy);
